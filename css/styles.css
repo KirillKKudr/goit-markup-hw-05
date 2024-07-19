@@ -697,3 +697,26 @@ img{
 .textarea-modal:focus{
     border-color:  #4D5AE5;;
 }
+
+.text-checkbox{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: #8e8f99;;
+}
+
+
+.checkbox:checked + .text-checkbox span{
+    background-color:#404bbf;
+    border: none;
+}
+
+.text-checkbox span{
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+}
