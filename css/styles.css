@@ -509,7 +509,6 @@ img{
     justify-content: center;
     border-radius: 50%;
     background-color: #4d5ae5;
-    margin-top: 8px;
     transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -533,6 +532,54 @@ img{
 .footer-container{
   display: flex;  
   align-items: baseline;
+}
+
+
+
+.footer-email-text{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+
+.footer-form{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-input{
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    width: 264px;
+    height: 40px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.footer-email-button{
+    font-family: "Roboto", sans-serif;
+    border-radius: 4px;
+    padding: 8px 24px;
+    width: 165px;
+    height: 40px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    text-align: center;
+    color: #ffffff;
+    background-color: #4D5AE5;
+    border: none;
+    cursor: pointer;
 }
 
 
