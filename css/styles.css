@@ -536,6 +536,11 @@ img{
 
 
 
+.footer-email-input{
+    margin-left: auto;
+}
+
+
 .footer-email-text{
     font-weight: 500;
     font-size: 16px;
@@ -589,6 +594,7 @@ img{
 
 .icon-button{
     margin-left: 16px;
+    fill: #fff;;
 }
 
 
